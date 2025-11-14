@@ -1,0 +1,29 @@
+# Archivos y carpetas comunes
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+*.DS_Store
+
+# Carpetas locales
+.vscode/
+.idea/
+tests/
+test.ipynb
+
+# Carpeta de datos persistentes (montada por volumen en docker-compose)
+data/
+chroma_db/
+
+# Git y control de versiones
+.git/
+.gitignore
+
+# Entornos virtuales
+.venv/
+venv/
+env/
